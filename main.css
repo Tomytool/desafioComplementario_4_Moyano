@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  align-items: center;
+  background-color: darkkhaki;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+main .card {
+  align-items: center;
+  background-color: #f8f5f5;
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px black;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  padding: 20px;
+  width: 400px;
+}
+main .card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 80%;
+}
+main .card p {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+main .card button {
+  background-color: darkcyan;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 9px;
+}/*# sourceMappingURL=main.css.map */
