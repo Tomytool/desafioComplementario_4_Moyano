@@ -1,4 +1,5 @@
 let margen;
+
 // se define la funcion de ingreso de datos
 function ingresoPrecio() {
   let precioCosto = prompt('Ingrece precio Costo por unidad de producto:');
@@ -19,3 +20,6 @@ function precioFinal(calculoVenta) {
   let precioFinal = Math.round(calculoVenta * (1 + margen / 100));
   alert('El precio venta es:  $' + precioFinal);
 }
+
+let evento = document.getElementById('btnCalcular');
+evento.addEventListener('click', ingresoPrecio);
